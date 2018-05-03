@@ -10,8 +10,7 @@ import com.bell.base.TestBase;
 public class AddCustomerTest extends TestBase {
 	@Test(dataProvider="getData")
 public void addCustomerTest(Hashtable<String,String> data) throws InterruptedException{
-		
-		if(!data.get("runmode").equals("Y")){
+			if(!data.get("runmode").equals("Y")){
 			throw new SkipException("Skipping the test case as the Run mode for data set is NO");
 		}
 		click("addCustBtn_CSS");
@@ -23,7 +22,6 @@ public void addCustomerTest(Hashtable<String,String> data) throws InterruptedExc
 		Assert.assertTrue(alert.getText().contains(data.get("alerttext")));
 		alert.accept();
 		//Assert.fail("customer not added successfully");
-		System.out.println("This is addcustomertest run successfully");
 	}
 	@DataProvider
 	public Object[][] getData(){

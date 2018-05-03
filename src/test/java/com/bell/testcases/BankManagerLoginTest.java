@@ -21,5 +21,4 @@ public void bankManagerLoginTest() throws InterruptedException, IOException {
 	//if login wont work then "Login not successful" message comes
 	log.debug("inside successfully executed");
 	//Assert.fail("Login not successful");
-	System.out.println("This is BankmanagerLoginTest run successfully");
 }}
