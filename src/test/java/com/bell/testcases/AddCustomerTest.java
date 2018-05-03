@@ -23,6 +23,7 @@ public void addCustomerTest(Hashtable<String,String> data) throws InterruptedExc
 		Assert.assertTrue(alert.getText().contains(data.get("alerttext")));
 		alert.accept();
 		//Assert.fail("customer not added successfully");
+		System.out.println("This is addcustomertest run successfully");
 	}
 	@DataProvider
 	public Object[][] getData(){
