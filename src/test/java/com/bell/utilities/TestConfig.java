@@ -2,8 +2,8 @@ package com.bell.utilities;
 public class TestConfig{
 
 	public static String server="smtp.gmail.com";
-	public static String from = "alamsarfaraz40@gmail.com";
-	public static String password = "98359572";
+	public static String from = "generalkhan9@gmail.com";
+	public static String password = "BankofIndia123";
 	public static String[] to ={"alamsarfaraz24@gmail.com","alamsarfaraz324@gmail.com"};
 	public static String subject = "Extent Project Report";
 	
